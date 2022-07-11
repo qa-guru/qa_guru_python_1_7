@@ -2,6 +2,10 @@ import allure
 from allure_commons.types import Severity
 
 
+def test_no_labels():
+    pass
+
+
 def test_dynamic_labels():
     allure.dynamic.tag("web")
     allure.dynamic.severity(Severity.BLOCKER)
